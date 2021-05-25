@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1544764564 source:c:\users\whywh\documents\progtestrams\super lists\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1544765129 source:d:\data\Личное\0 НЕОТСОРТИРОВАНО\Первый семестр проги\super lists\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
