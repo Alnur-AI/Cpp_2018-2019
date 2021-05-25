@@ -1,0 +1,134 @@
+Hello! Let's start the test!
+
+abc
+***
+Total:3
+ (1)A:0
+ (2)B:1
+ (3)C:0
+ (4)D:1
+ (5)E:1
+
+abc
+***
+Total:3
+ (1)A:0
+ (2)B:1
+ (3)C:0
+ (4)D:1
+ (5)E:1
+
+Your current rank: 2
+
+How much questions are wrote in this test?
+a) five, constantly
+b) over five questions
+c) five, but sometimes six
+d) I don't know
+e) Can I go home?
+|||||
+
+My answer is: a
+abc
+a**
+Total:3
+ (1)A:0
+ (2)B:0
+ (3)C:0
+ (4)D:1
+ (5)E:1
+
+Your current rank: 4
+
+
+RANK E
+a) wrong answer
+b) right answer
+c) I'm tired!
+d) Who does care about this test?
+e) I will go home, really, I'm tired!
+|||||
+
+RANK D
+abc
+a**
+Total:3
+ (1)A:0
+ (2)B:0
+ (3)C:0
+ (4)D:1
+ (5)E:1
+
+Your current rank: 4
+
+Just pick "c"! Please! You are really don't know subject
+a) doigj
+b) gerigb
+c) okay
+d) sifjg
+e) roigij
+|||||
+
+My answer is: abc
+a*
+
+Total:3
+ (1)A:0
+ (2)B:0
+ (3)C:0
+ (4)D:0
+ (5)E:1
+
+Your current rank: 5
+
+-----RANK B
+a) five, constantly
+b) over five questions
+c) five, but sometimes six
+d) I don't know
+e) Can I go home?
+|||||
+
+RANK E
+abc
+a*
+
+Total:3
+ (1)A:0
+ (2)B:0
+ (3)C:0
+ (4)D:0
+ (5)E:1
+
+Your current rank: 5
+
+Pick the right answer, please:
+a) wrong answer
+b) right answer
+c) I'm tired!
+d) Who does care about this test?
+e) I will go home, really, I'm tired!
+|||||
+
+My answer is: b
+abc
+ab
+
+Total:3
+ (1)A:0
+ (2)B:0
+ (3)C:0
+ (4)D:0
+ (5)E:0
+
+Your current rank: 0
+
+
+RANK D
+a) doigj
+b) gerigb
+c) okay
+d) sifjg
+e) roigij
+|||||
+-----RANK B
