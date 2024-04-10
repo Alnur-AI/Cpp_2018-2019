@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1566530093 source:c:\users\Ноутбук\desktop\Альнур\2 Прога второй семестр\progonki metod perfecto\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<cstdlib>
+
