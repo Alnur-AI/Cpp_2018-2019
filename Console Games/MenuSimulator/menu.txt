@@ -1,0 +1,21 @@
+00 0 New game
+01 1 Yes
+02 1 No
+03 0 Load game
+04 1 Save 1
+05 1 Save 2
+06 1 Save 3
+07 0 Settings
+08 1 Sound
+09 2 ON
+10 2 OFF
+11 1 Game Speed
+12 2 Very slow
+13 2 Slow
+14 2 Normal
+15 2 Fast
+16 2 GONNA GO FAST!
+17 1 X size =
+18 1 Y size =
+19 0 Credits
+20 0 Exit
