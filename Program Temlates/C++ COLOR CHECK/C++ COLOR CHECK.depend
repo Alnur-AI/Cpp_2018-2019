@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1543469719 source:c:\users\whywh\documents\progtestrams\c++ color check\main.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+
+1550513745 source:d:\code_programing\code_blocks\c_programming_university\c++ color check\main.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+
