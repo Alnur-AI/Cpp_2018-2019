@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1545728896 source:c:\users\whywh\documents\progtestrams\semester work\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1545925325 source:c:\users\alnur\desktop\semester work\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+

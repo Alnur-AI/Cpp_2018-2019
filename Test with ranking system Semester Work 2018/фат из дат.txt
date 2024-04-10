@@ -1,0 +1,250 @@
+while(currentQuestion != howMuchQuestions)
+    {
+        currentRANK = RANKchecker(leftQuestionsRANK_A, leftQuestionsRANK_B, leftQuestionsRANK_C, leftQuestionsRANK_D, leftQuestionsRANK_E);
+        printf("Your current rank: %d\n",currentRANK);
+        if (currentRANK == 6){
+            printf("test complited!\n");
+            fclose(answers);
+            fclose(questions);
+            fclose(results);
+            return 0;
+        }
+        char buffer[1024];
+        while (leftQuestionsRANK_A != 0 || leftQuestionsRANK_B != 0 || leftQuestionsRANK_C != 0 || leftQuestionsRANK_D != 0 || leftQuestionsRANK_E != 0)
+        {
+            do
+            {
+                 fgets(buffer, 1024, questions);
+            }while (buffer[0] != 'R' && buffer[1] != 'A' && buffer[2] != 'N' && buffer[3] != 'K');
+            if (buffer[0] == 'R' && buffer[1] == 'A' && buffer[2] == 'N' && buffer[3] == 'K' && buffer[4] == ' ' && buffer[5] == 'A' && currentRANK == A){
+                leftQuestionsRANK_A--;
+                currentQuestion++;
+                do
+                {
+                    fgets(buffer, 1024, questions);
+                    printf("%s",buffer);
+                }while (buffer[0] != 'e' && buffer[1] !=')' && buffer[2] !=' ');
+                if (buffer[0] == '-' && buffer[1] == '-' && buffer[2] =='-')
+                {
+                    fclose(questions);
+                    fclose(answers);
+                    questions = fopen("test.txt","r");
+                    answers = fopen("answer.txt","r");
+                    currentQuestion = 1;
+                }
+                printf("\nMy choice is: ");
+                scanf("%c",&currentAnswer);
+                studentAnswers[currentQuestion - 1] = currentAnswer;
+                system("cls");
+                if (studentAnswers[currentAnswer - 1] == correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK--;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+                if (studentAnswers[currentAnswer - 1] != correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK++;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+
+            }
+            if (buffer[0] == 'R' && buffer[1] == 'A' && buffer[2] == 'N' && buffer[3] == 'K' && buffer[4] == ' ' && buffer[5] == 'B' && currentRANK == B){
+                leftQuestionsRANK_B--;
+                currentQuestion++;
+                do
+                {
+                    fgets(buffer, 1024, questions);
+                    printf("%s",buffer);
+                }while (buffer[0] != 'e' && buffer[1] !=')' && buffer[2] !=' ');
+                if (buffer[0] == '-' && buffer[1] == '-' && buffer[2] =='-')
+                {
+                    fclose(questions);
+                    fclose(answers);
+                    questions = fopen("test.txt","r");
+                    answers = fopen("answer.txt","r");
+                    currentQuestion = 1;
+                }
+                printf("\nMy choice is: ");
+                scanf("%c",&currentAnswer);
+                studentAnswers[currentQuestion - 1] = currentAnswer;
+                system("cls");
+                if (studentAnswers[currentAnswer - 1] == correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK--;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+                if (studentAnswers[currentAnswer - 1] != correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK++;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+
+            }
+            if (buffer[0] == 'R' && buffer[1] == 'A' && buffer[2] == 'N' && buffer[3] == 'K' && buffer[4] == ' ' && buffer[5] == 'C' && currentRANK == C){
+                leftQuestionsRANK_C--;
+                currentQuestion++;
+                do
+                {
+                    fgets(buffer, 1024, questions);
+                    printf("%s",buffer);
+                }while (buffer[0] != 'e' && buffer[1] !=')' && buffer[2] !=' ');
+                if (buffer[0] == '-' && buffer[1] == '-' && buffer[2] =='-')
+                {
+                    fclose(questions);
+                    fclose(answers);
+                    questions = fopen("test.txt","r");
+                    answers = fopen("answer.txt","r");
+                    currentQuestion = 1;
+                }
+                printf("\nMy choice is: ");
+                scanf("%c",&currentAnswer);
+                studentAnswers[currentQuestion - 1] = currentAnswer;
+                system("cls");
+                if (studentAnswers[currentAnswer - 1] == correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK--;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+                if (studentAnswers[currentAnswer - 1] != correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK++;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+
+            }
+            if (buffer[0] == 'R' && buffer[1] == 'A' && buffer[2] == 'N' && buffer[3] == 'K' && buffer[4] == ' ' && buffer[5] == 'D' && currentRANK == D){
+                leftQuestionsRANK_D--;
+                currentQuestion++;
+                do
+                {
+                    fgets(buffer, 1024, questions);
+                    printf("%s",buffer);
+                }while (buffer[0] != 'e' && buffer[1] !=')' && buffer[2] !=' ');
+                if (buffer[0] == '-' && buffer[1] == '-' && buffer[2] =='-')
+                {
+                    fclose(questions);
+                    fclose(answers);
+                    questions = fopen("test.txt","r");
+                    answers = fopen("answer.txt","r");
+                    currentQuestion = 1;
+                }
+                printf("\nMy choice is: ");
+                scanf("%c",&currentAnswer);
+                studentAnswers[currentQuestion - 1] = currentAnswer;
+                system("cls");
+                if (studentAnswers[currentAnswer - 1] == correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK--;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+                if (studentAnswers[currentAnswer - 1] != correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK++;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+
+            }
+            if (buffer[0] == 'R' && buffer[1] == 'A' && buffer[2] == 'N' && buffer[3] == 'K' && buffer[4] == ' ' && buffer[5] == 'E' && currentRANK == E){
+                leftQuestionsRANK_E--;
+                currentQuestion++;
+                do
+                {
+                    fgets(buffer, 1024, questions);
+                    printf("%s",buffer);
+                }while (buffer[0] != 'e' && buffer[1] !=')' && buffer[2] !=' ');
+                if (buffer[0] == '-' && buffer[1] == '-' && buffer[2] =='-')
+                {
+                    fclose(questions);
+                    fclose(answers);
+                    questions = fopen("test.txt","r");
+                    answers = fopen("answer.txt","r");
+                    currentQuestion = 1;
+                }
+                printf("\nMy choice is: ");
+                scanf("%c",&currentAnswer);
+                studentAnswers[currentQuestion - 1] = currentAnswer;
+                system("cls");
+                if (studentAnswers[currentAnswer - 1] == correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK--;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+                if (studentAnswers[currentAnswer - 1] != correctAnswers[currentAnswer - 1])
+                {
+                    currentRANK++;
+                    if (currentRANK == 0)
+                    {
+                        currentRANK++;
+                    }
+                    if (currentRANK == 6)
+                    {
+                        currentRANK--;
+                    }
+                }
+
+            }
+        }
+    }
