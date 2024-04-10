@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1554181121 source:c:\users\Ноутбук\desktop\Альнур\2 Прога второй семестр\seft-play-snake\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<cstdlib>
+	<ctime>
+
