@@ -1,0 +1,57 @@
+RANK B
+How much questions are wrote in this test?
+a) five, constantly
+b) over five questions
+c) five, but sometimes six
+d) I don't know
+e) Can I go home?
+|||||
+
+RANK E
+Pick the right answer, please:
+a) wrong answer
+b) right answer
+c) I'm tired!
+d) Who does care about this test?
+e) I will go home, really, I'm tired!
+|||||
+
+RANK D
+Just pick "c"! Please! You are really don't know subject
+a) doigj
+b) gerigb
+c) okay
+d) sifjg
+e) roigij
+|||||
+
+RANK A
+Pick a
+pleeeese
+a) okay
+b) no
+c) no
+d) no
+e) no
+|||||
+
+RANK B
+Pick b
+pleeeese
+a) no
+b) okay
+c) no
+d) no
+e) no
+|||||
+
+RANK A
+Pick c
+pleeeese
+a) no
+b) no
+c) okay
+d) no
+e) no
+|||||
+-----
