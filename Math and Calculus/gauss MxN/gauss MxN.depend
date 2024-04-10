@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1561782664 source:d:\data\Личное\0 НЕОТСОРТИРОВАНО\2 Прога второй семестр\gauss mxn\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<cstdlib>
+
