@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1550593851 source:d:\code_programing\code_blocks\second semester\run n.e.r. (level editor)\main.cpp
+	<iostream>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+
