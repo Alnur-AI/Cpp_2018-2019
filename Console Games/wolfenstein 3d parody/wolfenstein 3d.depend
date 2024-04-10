@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1556691993 source:c:\users\Ноутбук\desktop\Альнур\2 Прога второй семестр\wolfenstein 3d\main.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	<windows.h>
+
