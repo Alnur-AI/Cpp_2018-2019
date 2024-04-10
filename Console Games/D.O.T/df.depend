@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1535120373 source:d:\code_programing\code_blocks\df\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<cstdlib>
+	<ctime>
+
