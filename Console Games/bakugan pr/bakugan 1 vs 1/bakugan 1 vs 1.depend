@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1601722007 source:d:\data\coding\bakugan pr\bakugan 1 vs 1\src\bakugan.cpp
+	"bakugan.h"
+
+1601737730 d:\data\coding\bakugan pr\bakugan 1 vs 1\include\bakugan.h
+	<iostream>
+	"Acard.h"
+	"Gcard.h"
+
+1601737635 source:d:\data\coding\bakugan pr\bakugan 1 vs 1\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<string>
+	"bakugan.h"
+	"player.h"
+
+1601736355 d:\data\coding\bakugan pr\bakugan 1 vs 1\include\acard.h
+
+1601736546 d:\data\coding\bakugan pr\bakugan 1 vs 1\include\gcard.h
+
+1601736356 source:d:\data\coding\bakugan pr\bakugan 1 vs 1\src\acard.cpp
+	"Acard.h"
+
+1601736546 source:d:\data\coding\bakugan pr\bakugan 1 vs 1\src\gcard.cpp
+	"Gcard.h"
+
+1601723925 source:d:\data\coding\bakugan pr\bakugan 1 vs 1\src\player.cpp
+	"player.h"
+
+1601737747 d:\data\coding\bakugan pr\bakugan 1 vs 1\include\player.h
+	"bakugan.h"
+	<iostream>
+
